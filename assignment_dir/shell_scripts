@@ -1,0 +1,9 @@
+#!bin/bash
+Directorty_Name="assignment_dir"
+Path="/c/Users/user/shell_scripts/assignment_dir"
+if [ -d "$Path" ];
+then
+	echo "Directory with a Name '$Directory_Name' exits in the Locatiom"
+else
+	echo "No such a Directory"
+fi
